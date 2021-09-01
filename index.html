@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="/static/stylesheet.css">
 </head>
 <body class="body">
+    <header>
+        C o l o u r <br>  T r a n s f e r
+    </header>
     <h1>
         This is the homepage for CID4 Color Transfer Programme
     </h1>
 
-    <p>
+    <p class="btns">
         <form action="{{url_for('transfer')}}" method="POST">
             
                 
@@ -23,9 +26,26 @@
         </form>
     </p>
 
-    <p>
+    <div class="result">
+        <table class="resulttable">
+            <tr class="resulttr">
+                <th>Result1</th>
+                <th>Result2</th>
+            </tr>
+            <tr class="resulttr">
+                <td class="resulttdb">Result A</td>
+                <td class="resulttdb">Result B</td>
+            </tr>
+            <tr class="resulttr">
+                <td class="resulttd"><button value="download">download</button></td>
+                <td class="resulttd"><button value="download">download</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- <p>
         <img src="{{result}}">
-    </p>
+    </p> -->
 
     <p class="showcaseclass">
         <table class="table4example">
@@ -77,13 +97,13 @@
         </p>
         <table class="table3">
             <tr> 
-                <td>Zhongmin</td>
-            </tr>
-            <tr> 
                 <td>Raymond</td>
             </tr>
             <tr> 
                 <td>Wen Sheng</td>
+            </tr>
+            <tr> 
+                <td>Zhongmin</td>
             </tr>
         </table>
     </footer>

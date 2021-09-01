@@ -7,6 +7,13 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 
+header{
+    font-family: 'Rubik', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    background-color: rgb(54, 48, 48);
+}
+
 h1{
     padding-top: 20px;
     text-align: center;
@@ -14,9 +21,17 @@ h1{
     font-size: 3rem;
 }
 
+form{
+    text-align: center;
+    padding-bottom:2rem;
+}
+
 .btn{
-    font-size: 3rem;
-    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    width: 20%;
+    height: 60px;
     border-radius: 20px;
 } 
 
@@ -31,6 +46,48 @@ form{
 
 
 
+.resulttable{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 2rem;
+}
+
+.resulttr{
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.resulttd{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+.resulttdb{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+    border: 1px solid;
+}
+button{
+    width: 160px;
+    height: 90px;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+
+
+
+.showcaseclass{
+    padding-top: 100px;
+}
 
 
 .table4example{
