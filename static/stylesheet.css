@@ -2,6 +2,7 @@
 
 
 body{
+    background-image: url('/static/source/sg.bmp');
     background-color : #222;
     color: #eee;
     font-family: 'Rubik', sans-serif;
@@ -14,6 +15,7 @@ header{
     background-color: rgb(54, 48, 48);
 }
 
+
 h1{
     padding-top: 20px;
     text-align: center;
@@ -21,35 +23,44 @@ h1{
     font-size: 3rem;
 }
 
+
+.formdiv{
+    width: 30%; 
+    height: 100px; 
+    float: left;
+}
+
 form{
     text-align: center;
-    padding-bottom:2rem;
+    padding-top: 0px;
+    font-size: 3rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.formtr{
+    height:175px
 }
 
 .btn{
-    margin-left: auto;
-    margin-right: auto;
     font-size: 2rem;
-    width: 20%;
+    width: 80%;
     height: 60px;
     border-radius: 20px;
 } 
 
 .btn:hover{background-color: rgb(63, 108, 160);}
 
-form{
-    padding-top: 50px;
-    padding-bottom: 30px;
+
+.resultdiv{
+    margin-left: 0%;
+    height: 600px;
 }
-
-
-
 
 
 .resulttable{
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 60%;
     font-size: 2rem;
 }
 
@@ -66,13 +77,16 @@ form{
     padding-top: 20px;
     padding-bottom: 20px;   
 }
+
 .resulttdb{
     text-align: center;
     font-size: 2rem;
     padding-top: 20px;
     padding-bottom: 20px;   
     border: 1px solid;
+    height: 300px;
 }
+
 button{
     width: 160px;
     height: 90px;
@@ -80,25 +94,32 @@ button{
     font-family: 'Rubik', sans-serif;
 }
 
+button:hover{
+    background-color: rgb(88, 82, 82)
+}
 
 
 
-
-
+    
 .showcaseclass{
     padding-top: 100px;
 }
 
+.exampledesc{
+    font-size: 4rem;
+    text-align: center;
+}
 
 .table4example{
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 95%;
 
 }
 
 .head{
     font-size: 2rem;
+    width: 33%;
 }
 
 embed{
