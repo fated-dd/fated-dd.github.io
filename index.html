@@ -17,15 +17,15 @@
     </h1>
     <div class="main">
         <div class="formdiv">
-            <form action="/static/upload.php" method="POST" enctype="multipart/form-data">
+            <form action="?" method="POST">
                 <table>
                     <tr class="formtr">
                         <td class="formtd">Source:</td>
-                        <td class="formtd"><input  type='file' id='sourceInput' name='source' value="Choose a file" class="btn"></td>
+                        <td class="formtd"><input  type='file' name='source' class="btn"></td>
                     </tr>
                     <tr class="formtr">
                         <td class="formtd">Target:</td>
-                        <td class="formtd"><input  type='file' id='targetInput' name='target' value="Choose a file" class="btn"></td>
+                        <td class="formtd"><input  type='file' name='target' class="btn"></td>
                     </tr>
                     <tr class="formtr">
                         <td class="formtd"></td>
@@ -46,27 +46,24 @@
             <table class="resulttable">
                 <tr class="resulttr">
                     <th>Result1</th>
-                    <th>Result2</th>
+                    <!-- <th>Result2</th> -->
                 </tr>
                 <tr class="resulttr">
                     <td class="resulttdb">Result A</td>
-                    <td class="resulttdb">Result B</td>
+                    <!-- <td class="resulttdb">Result B</td> -->
                 </tr>
                 <tr class="resulttr">
                     <td class="resulttd"><button value="download">download</button></td>
-                    <td class="resulttd"><button value="download">download</button></td>
+                    <!-- <td class="resulttd"><button value="download">download</button></td> -->
                 </tr>
             </table>
         </div>
     </div>
     
 
-    <!-- <p>
-        <img src="{{result}}">
-    </p> -->
 
     <p class="showcaseclass">
-        <p>
+        <p class="exampledesc">
             Example:
         </p>
         <table class="table4example">
@@ -117,7 +114,7 @@
     </footer>
     
 
-
+    <script src="/static/script.js"></script>
 
 </body>
 </html>

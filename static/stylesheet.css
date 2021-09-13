@@ -26,14 +26,14 @@ h1{
 
 
 .formdiv{
-    width: 30%; 
+    width: 50%; 
     height: 100px; 
     float: left;
 }
 
 form{
     text-align: center;
-    padding-top: 0px;
+    padding-left: 100px;
     font-size: 3rem;
     font-family: 'Rubik', sans-serif;
 }
@@ -42,9 +42,13 @@ form{
     height:175px
 }
 
+.formtd{    
+    padding-right: 2rem;
+}
+
 .btn{
     font-size: 2rem;
-    width: 80%;
+    width: 100%;
     height: 60px;
     border-radius: 20px;
 } 
@@ -53,7 +57,6 @@ form{
 
 
 .resultdiv{
-    margin-left: 0%;
     height: 600px;
 }
 
@@ -61,7 +64,7 @@ form{
 .resulttable{
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 40%;
     font-size: 2rem;
 }
 
@@ -93,6 +96,7 @@ button{
     height: 90px;
     font-size: 2rem;
     font-family: 'Rubik', sans-serif;
+    border-radius: 20px;
 }
 
 button:hover{
